@@ -1,0 +1,16 @@
+{
+        "reponame":"sample-html5-support-test",
+        "title":"Flood Puzzle Game",
+        "tooltip":"A simple sample that allows users to view their device's web browser/webView support for the latest HTML5 features.",
+        "description":"A simple sample that allows users to view their device's web browser/webView support for the latest HTML5 features.(HTML5Test & Ringmrk)",
+        "highlights":["Utility"],
+        "apppreview":"true",
+        "appname":"demo.html5supporttest",
+        "articleUrl":"",
+        "keywords":["Utility"],
+        "iconUrl":"https://github.com/gomobile/sample-html5-support-test/blob/master/icon.png",
+        "screenshotUrl":"https://github.com/gomobile/sample-html5-support-test/blob/master/screenshot.png",
+        "visible" : "false",
+        "zipUrl":"",
+        "relname":"4.0.0"
+}
