@@ -50,3 +50,8 @@ OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 IMAGES: .png; images/.png
 ---------------------------
 all images are created by Intel Corp. they are licensed under the Creative Commons Attribution 3.0 license http://creativecommons.org/licenses/by/3.0/us/
+
+App Framework 
+---------------------------
+Source: https://github.com/01org/appframework
+License: https://github.com/01org/appframework/blob/master/license.txt
