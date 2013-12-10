@@ -1,6 +1,6 @@
 {
         "reponame":"sample-html5-support-test",
-        "title":"Flood Puzzle Game",
+        "title":"HTML5 Support Test",
         "tooltip":"A simple sample that allows users to view their device's web browser/webView support for the latest HTML5 features.",
         "description":"A simple sample that allows users to view their device's web browser/webView support for the latest HTML5 features.(HTML5Test & Ringmrk)",
         "highlights":["Utility"],
