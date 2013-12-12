@@ -5,6 +5,7 @@
         "description":"A simple sample that allows users to view their device's web browser/webView support for the latest HTML5 features.(HTML5Test & Ringmrk)",
         "highlights":["Utility"],
         "apppreview":"true",
+        "mobile":"true",
         "appname":"demo.html5supporttest",
         "articleUrl":"",
         "keywords":["Utility"],
