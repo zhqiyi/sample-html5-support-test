@@ -11,7 +11,7 @@
         "keywords":["Utility"],
         "iconUrl":"https://github.com/gomobile/sample-html5-support-test/blob/master/icon.png",
         "screenshotUrl":"https://github.com/gomobile/sample-html5-support-test/blob/master/screenshot.png",
-        "visible" : "false",
+        "visible" : "true",
         "zipUrl":"",
         "relname":"4.0.0"
 }
