@@ -7,7 +7,7 @@
         "apppreview":"true",
         "mobile":"true",
         "appname":"demo.html5supporttest",
-        "articleUrl":"",
+        "articleUrl":"http://software.intel.com/en-us/html5/articles/html5-support-test",
         "keywords":["Utility"],
         "iconUrl":"https://github.com/gomobile/sample-html5-support-test/blob/master/icon.png",
         "screenshotUrl":"https://github.com/gomobile/sample-html5-support-test/blob/master/screenshot.png",
