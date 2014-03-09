@@ -1,3 +1,6 @@
+/*jslint browser:true, devel:true, white:true, vars:true, eqeq:true */
+/*global $:false, intel:false*/
+
 /* This code runs as soon as intel.xdk API calls are activate */
 var onDeviceReady=function(){
     //hide splash screen
@@ -8,7 +11,7 @@ document.addEventListener("intel.xdk.device.ready",onDeviceReady,false);
 /*Prevents the entire document from scrolling ontouch*/
 document.ontouchstart = function(e){ 
     e.preventDefault();
-}
+};
 
 /*Makes the iframe visible*/
 function enable_display(){
