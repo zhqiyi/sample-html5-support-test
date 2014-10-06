@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!--HTML5 doctype-->
+
+<html>
+    <head>
+        <title>HTML5 Support Test</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-type">
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"
+        name="viewport">
+        <!--CSS-->
+        <link rel="stylesheet" href="css/appframework_2/icons.css" />
+        <link rel="stylesheet" href="css/appframework_2/af.ui.css" />    
+        <!--Javascripts-->
+        <script src='intelxdk.js'></script>
+        <script type="text/javascript" src="js/appframework_2/appframework.min.js"></script>
+        <script type="text/javascript" src="js/appframework_2/appframework.ui.min.js"></script>
+
+        <!-- phantom library, needed for XDK "legacy" container api calls -->
+	    <script src="intelxdk.js"></script>
+	    <!-- phantom library, needed for Cordova api calls -->
+	    <script src="cordova.js"></script>
+	    <!-- phantom library, needed for XDK "legacy" container CORS -->
+	    <script src="xhr.js"></script>
+
+        <!--Main JS-->
+        <script type="text/javascript" src="js/main.js"></script>
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+    
+    <body>
+        <div id="afui">
+            <div id="content">
+                <div id="main" class="panel" title="HTML5 Support Test" data-footer="none" selected="true">
+                    <!--Button Group-->
+                    <div class="center button-grouped flex">
+                        <a class="icon html5 button orange" onclick="html5test()">HTML5 Test</a>
+                        <a class="button">-</a>
+                        <a class="button green" onclick="rngmrktest()">Ringmark</a>
+                    </div>
+                    <p>Use the RIGHT EDGE of the screen to SCROLL the PAGE</p>
+                    <div id="main_frame">
+                        <iframe id="webtest_frame" src=""  style="display:none;" sandbox="" seamless></iframe>
+                        <div id="iframeOverlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
